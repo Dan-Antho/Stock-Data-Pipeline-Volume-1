@@ -1,1 +1,5 @@
-
+Detailed within this folder are the python scripts use to instantiate and deliver a DAG data pipeline using Apache Airflow.
+We connect to stock data API: https://www.stockdata.org/documentation 
+We pull some example data and perform simple transformations to it using the AAPL ticker.
+This data is then transfered to azure blob storage.
+There are un-coded requirements: having an established azure blob connection using the Apache Airflow UI, having an Azure storage container and account set-up, and storing our API key in the Airflow secret variable functionality.
